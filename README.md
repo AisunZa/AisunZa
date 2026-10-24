@@ -1,26 +1,62 @@
 # Hi, I'm Aisun 👋
 
-Software engineer focused on **Python, computer vision, geospatial systems, and backend engineering**.
+**Scientific Python | Geospatial Engineering | Reproducible AI Evaluation**
 
-### Current stack
+I build Python-based workflows for scientific and geospatial data processing, with a focus on numerical correctness, reproducibility, data quality, and automated testing.
 
-Python · FastAPI · PostgreSQL/PostGIS · GeoPandas · PyTorch · OpenCV · Docker · GitHub Actions · Pytest
+My current interests include **Earth-science coding benchmarks, scientific AI evaluation, spatial analysis, and reliable research software**.
 
-### Selected work
+## 🌍 Featured Project — GeoClimateBench
 
-**GeoAsset Intelligence Platform**
-End-to-end geospatial infrastructure risk platform using FastAPI, PostGIS, GeoPandas, QGIS/PyQGIS, Docker, automated testing, and GitHub Actions CI.
+**[Explore GeoClimateBench's validated benchmark suite](https://github.com/AisunZa/GeoClimateBench/tree/feature/harbor-agent-evaluation)** | **[Verified GitHub Actions run](https://github.com/AisunZa/GeoClimateBench/actions/runs/39966344276)**
 
-**Computer Vision & GeoAI Research**
-Building extraction and urban change analysis from historical aerial imagery using deep-learning segmentation architectures including U-Net variants, HRNet, DeepLabV3, SAM, and ResNet-based models.
+GeoClimateBench is an open-source scientific Python portfolio project for developing and evaluating terminal-based Earth-science coding tasks.
 
-### What I'm working on
+It includes three reproducible Harbor benchmarks:
 
-* Contributing to established open-source Python projects
-* Backend and geospatial software engineering
-* Computer vision and spatial AI
-* Testing, debugging, and reproducible engineering workflows
+| Scientific task | Core challenge |
+|---|---|
+| Daily Temperature QC | Physical units, missing data, UTC timestamps, and sampled daily maxima |
+| Heatwave P90 | Historical climatology, percentile thresholds, and consecutive extreme-temperature events |
+| Station–Grid Validation | Haversine matching, observation exclusions, and numerical error statistics |
 
-### GitHub
+**Verification highlights:**
+- All three Harbor benchmarks passed Oracle (`1.0`) and Nop (`0.0`) controls.
+- Independent numerical verifiers and Docker-separated execution environments.
+- 17 successful fault-injection controls across the first two benchmarks.
+- 30 additional scientific regression controls for station–grid validation.
+- 32 passing tests in the original scientific regression suite.
+- Successful GitHub Actions scientific verification workflow.
 
-Explore my repositories below for software engineering, GeoAI, computer vision, and geospatial backend projects.
+**Tools:** Python, NumPy, pandas, SciPy, xarray, NetCDF, pytest, Docker, Harbor, Git, and GitHub Actions.
+
+**Scientific scope:** The offline benchmarks use synthetic data. A separate exploratory case study compares ERA5-Land temperatures with DWD station observations for Berlin-Tempelhof in July 2022. Synthetic benchmark results are not presented as proof of real-world forecast accuracy.
+
+## 🗺️ Other Selected Projects
+
+### [GeoAsset Intelligence Platform](https://github.com/AisunZa/geoasset-intelligence-platform)
+
+Geospatial infrastructure-risk and maintenance analysis using Python, QGIS/PyQGIS, GeoPandas, PostGIS, FastAPI, Docker, and automated testing.
+
+### [GeoDiff CI](https://github.com/AisunZa/geodiff-ci)
+
+A geospatial regression-testing tool for detecting changes in geometry validity, coordinate reference systems, schemas, feature counts, and spatial coverage.
+
+My broader work also includes computer vision, image analysis, and Python backend development.
+
+## 🔬 Engineering Interests
+
+- Scientific programming and numerical verification
+- Earth-science and environmental data processing
+- AI coding-task development and evaluation
+- Geospatial analysis and data quality control
+- Reproducible computational workflows
+- Automated testing and continuous integration
+
+I aim to make computational results **explainable, testable, and reproducible**, with explicit assumptions and honest reporting of limitations.
+
+## 🤝 Collaboration
+
+I'm interested in opportunities involving scientific Python, Earth-science AI evaluation, geospatial engineering, and research software.
+
+Explore my [repositories](https://github.com/AisunZa?tab=repositories) to see the source code, documentation, tests, and project examples.
