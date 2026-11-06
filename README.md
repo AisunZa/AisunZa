@@ -8,7 +8,7 @@ My current interests include **Earth-science coding benchmarks, scientific AI ev
 
 ## 🌍 Featured Project — GeoClimateBench
 
-**[Explore GeoClimateBench's validated benchmark suite](https://github.com/AisunZa/GeoClimateBench/tree/feature/harbor-agent-evaluation)** | **[Verified GitHub Actions run](https://github.com/AisunZa/GeoClimateBench/actions/runs/39966344276)**
+**[Explore GeoClimateBench](https://github.com/AisunZa/GeoClimateBench)** | **[Verified GitHub Actions run](https://github.com/AisunZa/GeoClimateBench/actions/runs/39966344276)**
 
 GeoClimateBench is an open-source scientific Python portfolio project for developing and evaluating terminal-based Earth-science coding tasks.
 
